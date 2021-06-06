@@ -40,12 +40,3 @@ else:
         count += 1
     s = scores/count
     #print(s)
-    
-    #if s >=0.7:
-    
-    #elif s >=0.3:
-        
-    #else:
-        
-   
-   
