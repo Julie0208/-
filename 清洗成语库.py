@@ -2,7 +2,7 @@
 """
 Created on Sun Jun  6 10:19:21 2021
 
-@author: ASUS
+@author: 季雅琪
 """
 
 list_result = []
