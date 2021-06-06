@@ -2,7 +2,7 @@
 """
 Created on Sun Jun  6 11:02:53 2021
 
-@author: ASUS
+@author: 季雅琪
 """
 import random
 
