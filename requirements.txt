@@ -82,7 +82,7 @@ threadpoolctl==2.1.0
 tight==0.1.0
 toml==0.10.2
 tqdm==4.61.1
-urllib3==1.26.5
+urllib3==1.25.11
 virtualenv==20.4.7
 visualdl==2.2.0
 Werkzeug==2.0.1
