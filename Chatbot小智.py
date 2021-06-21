@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jun 18 22:29:53 2021
+
+@author: 陈存
+"""
+
 from tkinter import *
 import time
 
@@ -8,7 +15,7 @@ def msgsend(robots):
 
     msg = '我:' + time.strftime('%Y-%m-%d %H:%M:%S', time.localtime()) + '\n'
     # print(msg)
-    txt_msglist.insert(END, msg, 'green')  # 添加时间
+    txt_msglist.insert(END, msg, 'green')  # 添加实时时间
     query = txt_msgsend.get('0.0', END).rstrip('\n') 
 
     result = robots.send[robots.item](query)
@@ -26,9 +33,6 @@ def cancel():
     txt_msgsend.delete('0.0', END)  # 取消发送消息，即清空发送消息
 
 '''绑定Enter键'''
-
-
-
 
 if __name__=="__main__":
 
